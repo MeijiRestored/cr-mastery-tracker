@@ -25,10 +25,8 @@ body {
   flex-wrap: wrap;
 }
 
-#loot {
-  margin: 4px;
-}
-
-#bars {
-  margin: 4px;
+#loot,
+#bars,
+#extra {
+  margin: 6px;
 }

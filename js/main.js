@@ -368,4 +368,10 @@ function loadStats(data) {
       loot["lWC"]
     }<span style="font-size:75%">/36</span>`
   );
+
+  $("#extra").html(
+    `<p><b>Extra Stats</b></p>Completed tiers<br>${completedTiers}<span style="font-size:75%">/${totalTiers}</span> (${Math.round(
+      (completedTiers / totalTiers) * 100
+    )}%)<br><br>Unlocked Masteries<br>${unlockedMasteries}<span style="font-size:75%">/107</span`
+  );
 }
