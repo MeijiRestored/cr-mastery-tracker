@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      http-equiv="content-type"
+      content="text/html; charset=utf-8"
+      lang="en"
+    />
+    <meta content="CR Mastery Tracker" property="og:title" />
+    <meta
+      content="Track your progress in Clash Royale's Card Mastery!"
+      property="og:description"
+    />
+    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:title" content="CR Mastery Tracker" />
+    <meta
+      name="twitter:description"
+      content="Track your progress in Clash Royale's Card Mastery!"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/w3.css">
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-latest.js"
+    ></script>
+    <title>CR Mastery Tracker</title>
+  </head>
+  <body>
+    <h1>Clash Royale Mastery Tracker</h1>
+    <div id="container">
+      <div id="inputSection" class="greyBox">
+        <input type="text" id="tag" name="tag" /><button
+          id="OK"
+          onclick="start()"
+        >
+          OK
+        </button>
+      </div>
+      <div id="outputSection">
+        <h3>Enter your player tag to begin.</h3>
+      </div>
+      <hr />
+      <div id="stats" style="display: none">
+        <div id="bars"></div>
+        <div id="loot"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
